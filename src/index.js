@@ -26,7 +26,51 @@
 // val4.addres = 'tokyo';
 // console.log(val4)
 
-const val5 = ["dog", "cat"];
-val5[0] = "panda";
-val5.push("bird");
-console.log(val5);
+// const name = 'kotomi';
+// const age = 30;
+
+// const message1 = '私の名前は' + name + 'です。年齢は' + age + 'です。'
+// console.log(message1);
+
+// const message2 = `私の名前は${name}です。年齢は${age}です。`
+// console.log(message2)
+
+// function func1(str) {
+//   return str;
+// }
+// const func1 = function(str){
+//   return str;
+// }
+// console.log(func1('func1です'))
+
+// const func2 = (str) => str;
+// console.log(func2('aaa'));
+
+// const func3 = (num1,num2) => {
+//   return num1 + num2;
+// }
+// console.log(func3(10, 20));
+
+// const myProfile = {
+//   name: 'kotomi',
+//   age: 30,
+// };
+
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}です。`
+// console.log(message1);
+
+// const {name, age} = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}です。`
+// console.log(message2);
+
+// const myProfile = ['kotomi', 30];
+
+// // const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です。`
+// // console.log(message3);
+
+// const [name, age] = myProfile;
+// const message4 = `名前は${name}です。年齢は${age}です。`
+// console.log(message4);
+
+const sayHello = (name = "ゲスト") => console.log(`こんにちは${name}さん！`);
+sayHello();
