@@ -137,7 +137,22 @@
 // const formattedNum = typeof num === 'number' ? num.toLocaleString() : '数値をいれろ～';
 // console.log(formattedNum)
 
-const checkSum = (num1, num2) => {
-  return num1 + num2 > 100 ? "100超えた" : "許容範囲内です";
-};
-console.log(checkSum(55, 8));
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100超えた" : "許容範囲内です";
+// };
+// console.log(checkSum(55, 8));
+
+// const flag1 = true;
+// const flag2 = true;
+
+// if(flag1 && flag2){
+//   console.log('1も2もtrueになる');
+// }
+
+// const num = 100;
+// const fee = num || '金額未設定';
+// console.log(fee);
+
+// const num2 = null;
+// const fee2 = num2 && 'なにか設定された';
+// console.log(fee2);
